@@ -3,8 +3,8 @@
 
 const loadLesson = () => {
     fetch("https://openapi.programming-hero.com/api/levels/all")
-    .fetch((res) => res.json())
-    .fetch((json) => displayLesson(json.data));
+    .then((res) => res.json())
+    .then((json) => displayLesson(json.data));
 };
 
 const displayLesson = (lessons) => {
@@ -20,6 +20,7 @@ btnDiv.innerHTML = `
             </button>
 `;
 
-    loadLesson();
+    levelContainer.append(btnDiv);
     }
 };
+loadLesson();
