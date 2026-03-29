@@ -176,55 +176,97 @@
     </dialog>
 
 
-        <div class="max-w-4xl max-auto py-10">
-            <h1 class="text-2xl font-bold text-center text-blue-500 mb-6">
-               Frequently Asked Questions 
-            </h1>
-            <div class="space-y-3">
-                <div class="collapse collapse-arrow bg-white">
-                    <input type="radio" name="faq" checked />
-                    <div class="collapse-title font-medium">
-                        How can I start learning English on this website?
-                    </div>
-                    <div class="collapse-content text-sm">
-                         You can start by exploring beginner lessons, interactive exercises and quizzes.
-                    </div>
-                </div>
-                 <div class="collapse collapse-arrow bg-white">
-        <input type="radio" name="faq" />
-        <div class="collapse-title font-medium">
-          Is this website free to use?
-        </div>
-        <div class="collapse-content text-sm">
-          Yes, most of the resources are completely free.
-        </div>
-      </div>
+       <div class="max-w-3xl mx-auto px-4 py-12">
+    
+    <!-- Header -->
+    <h1 class="text-4xl font-bold text-center mb-12 text-primary">
+      Frequently Asked Questions
+    </h1>
 
+    <!-- FAQ Accordion -->
+    <div class="space-y-3">
       
-      <div class="collapse collapse-arrow bg-white">
-        <input type="radio" name="faq" />
-        <div class="collapse-title font-medium">
-          Do I need to create an account?
+      <!-- FAQ Item 1 (Open by default) -->
+      <details class="faq-collapse group bg-base-200 rounded-xl overflow-hidden" open>
+        <summary class="faq-question px-6 py-5 flex items-center justify-between cursor-pointer hover:bg-base-300 transition-colors">
+          <span class="text-lg font-medium text-base-content">
+            1. How can I start learning English on this website?
+          </span>
+          <span class="faq-icon w-6 h-6 flex items-center justify-center text-2xl text-primary font-light transition-transform">+</span>
+        </summary>
+        <div class="px-6 pb-6 text-base-content/80 leading-relaxed">
+          You can start by exploring our beginner lessons, interactive exercises, and quizzes. 
+          We also offer structured courses to guide you step by step.
         </div>
-        <div class="collapse-content text-sm">
-          No, but creating an account gives extra features.
-        </div>
-      </div>
+      </details>
 
+      <!-- FAQ Item 2 -->
+      <details class="faq-collapse group bg-base-200 rounded-xl overflow-hidden">
+        <summary class="faq-question px-6 py-5 flex items-center justify-between cursor-pointer hover:bg-base-300 transition-colors">
+          <span class="text-lg font-medium text-base-content">
+            2. Is this website free to use?
+          </span>
+          <span class="faq-icon w-6 h-6 flex items-center justify-center text-2xl text-primary font-light transition-transform">+</span>
+        </summary>
+        <div class="px-6 pb-6 text-base-content/80 leading-relaxed">
+          Yes, most of our content is completely free. Some premium features and advanced courses may require a subscription.
+        </div>
+      </details>
+
+      <!-- FAQ Item 3 -->
+      <details class="faq-collapse group bg-base-200 rounded-xl overflow-hidden">
+        <summary class="faq-question px-6 py-5 flex items-center justify-between cursor-pointer hover:bg-base-300 transition-colors">
+          <span class="text-lg font-medium text-base-content">
+            3. Do I need to create an account?
+          </span>
+          <span class="faq-icon w-6 h-6 flex items-center justify-center text-2xl text-primary font-light transition-transform">+</span>
+        </summary>
+        <div class="px-6 pb-6 text-base-content/80 leading-relaxed">
+          No, you can browse and use basic features without an account. However, creating an account allows you to track your progress and save your learning history.
+        </div>
+      </details>
+
+      <!-- Add more items as needed -->
+      <details class="faq-collapse group bg-base-200 rounded-xl overflow-hidden">
+        <summary class="faq-question px-6 py-5 flex items-center justify-between cursor-pointer hover:bg-base-300 transition-colors">
+          <span class="text-lg font-medium text-base-content">
+            4. How can I build my English vocabulary?
+          </span>
+          <span class="faq-icon w-6 h-6 flex items-center justify-center text-2xl text-primary font-light transition-transform">+</span>
+        </summary>
+        <div class="px-6 pb-6 text-base-content/80 leading-relaxed">
+          We provide daily vocabulary lessons, flashcards, word games, and contextual usage examples to help you learn and remember new words effectively.
+        </div>
+      </details>
+
+    </div>
+
+    <!-- Footer Section -->
+    <div class="mt-16 pt-8 border-t border-base-300 flex flex-col md:flex-row justify-between items-center gap-6">
       
-      <div class="collapse collapse-arrow bg-white">
-        <input type="radio" name="faq" />
-        <div class="collapse-title font-medium">
-          How can I improve English vocabulary?
+      <div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl font-bold text-primary">English</span>
+          <div class="badge badge-primary badge-sm">বাংলা</div>
         </div>
-        <div class="collapse-content text-sm">
-          Practice daily, read books and use flashcards.
-        </div>
+        <p class="text-sm text-base-content/60 mt-1">
+          ইংরেজি শিখুন সহজে
+        </p>
+        <p class="text-xs text-base-content/50 mt-4">
+          Providing ED-Tech Applications since 2025
+        </p>
       </div>
 
-            </div>
-        </div>
+      <!-- Social Links -->
+       <p class="mb-15">Follow us</p>
+      <div class="flex gap-4">
+        <a href="#" class="btn btn-ghost btn-circle text-xl"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="btn btn-ghost btn-circle text-xl"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="btn btn-ghost btn-circle text-xl"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
 
+  </div>
 
 
 
